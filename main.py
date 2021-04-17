@@ -151,5 +151,5 @@ class Dataset:
   def create_sentences_dict(self):
     for i,(k,tup) in enumerate(self.sentences):
       self.sentences_dict[k]["words"] = tup  
-      self.sentences_dict[k]["tags"] = Y[i]  
+      self.sentences_dict[k]["tags"] = self.Y[i]  
 
