@@ -3,12 +3,14 @@ class Dataset:
   tags_path=""
   sentences = {}
   keys=[]
+  vocab = []
 
   def __init__(self,text_path,tags_path):
     self.text_path = text_path
     self.tags_path = tags_path
     self.create_sentences()
     self.create_keys()
+    self.create_vocab()
 
   def create_sentences(self):
     sentence_key = ""
@@ -28,7 +30,12 @@ class Dataset:
   def create_keys(self):
     self.keys = self.sentences.keys()
 
-  
+  def create_vocab(self):
+    my_vocab = {}
+    for tup in self.sentences.values() :
+      for word in tup :
+        my_vocab[word] = True
+    self.vocab = my_vocab.keys()  
 
 
 dataset = Dataset("./text.txt","tags.txt")
