@@ -54,6 +54,23 @@ class Dataset:
   def create_X(self):
     self.X = tuple(self.sentences.values())
   
+  def create_Y(self):
+    my_Y = ()
+    f = open(self.text_path,"r")
+    sentence_tags = ()
+    for line in f.readlines():
+      if "wo_" in line :
+        sentence_tags = ()
+      elif line !="\n" :
+        tag = line.replace("\n","").split("\t")[1]
+        sentence_tags = sentence_tags + (tag,)
+      elif line == "\n" and len(sentence_tags) :
+        self.Y = self.Y + (sentence_tags,)
+    else:
+      self.Y = self.Y + (sentence_tags,)
+      
+
+
 
      
 
