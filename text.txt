@@ -1,0 +1,29 @@
+
+wo_wtb-ud-train_24
+Ci	ADP
+wàllu	NOUN
+xay	NOUN
+Kajoor	PROPN
+moo	_
+mu	PRON
+a	AUX
+doonoon	VERB
+seetub	NOUN
+Senegaal	PROPN
+.	PUNCT
+
+wo_wtb-ud-train_25
+Dammeel	PROPN
+moo	_
+mu	PRON
+a	AUX
+nekkoon	VERB
+ca	ADP
+kaw	NOUN
+di	AUX
+seddale	VERB
+ay	DET
+ndomboy	NOUN
+tànk	NOUN
+.	PUNCT
+
