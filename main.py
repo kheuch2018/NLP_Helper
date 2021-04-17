@@ -2,10 +2,13 @@ class Dataset:
   text_path=""
   tags_path=""
   sentences = {}
+  keys=[]
+
   def __init__(self,text_path,tags_path):
     self.text_path = text_path
     self.tags_path = tags_path
     self.create_sentences()
+    self.create_keys()
 
   def create_sentences(self):
     sentence_key = ""
@@ -22,9 +25,10 @@ class Dataset:
     else:
       self.sentences[sentence_key] = sentence
   
+  def create_keys(self):
+    self.keys = self.sentences.keys()
+
   
 
 
 dataset = Dataset("./text.txt","tags.txt")
-
-  
