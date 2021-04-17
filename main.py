@@ -7,6 +7,7 @@ class Dataset:
   tagset = [] 
   X = ()
   Y = ()
+  N = 0
   
   def __init__(self,text_path,tags_path):
     self.text_path = text_path
@@ -17,6 +18,7 @@ class Dataset:
     self.create_tagset()
     self.create_X()
     self.create_Y()
+    self.create_N()
 
   def create_sentences(self):
     sentence_key = ""
@@ -66,13 +68,13 @@ class Dataset:
         sentence_tags = sentence_tags + (tag,)
       elif line == "\n" and len(sentence_tags) :
         self.Y = self.Y + (sentence_tags,)
-    else:
-      self.Y = self.Y + (sentence_tags,)
-      
-
-
-
-     
+    
+  def create_N(self):
+    total = 0
+    for tup in self.Y :
+      total += len(tup)
+    self.N = total
 
 
 dataset = Dataset("./text.txt","tags.txt")
+
