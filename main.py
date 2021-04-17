@@ -8,6 +8,8 @@ class Dataset:
   X = ()
   Y = ()
   N = 0
+  sentences_dict: {}
+
   training_set = {
     "sentences": {},
     "keys": [],
@@ -39,6 +41,7 @@ class Dataset:
     self.create_Y()
     self.create_N()
     self.create_sets()
+    self.create_sentences_dict()
 
   def create_sentences(self):
     sentence_key = ""
@@ -145,6 +148,8 @@ class Dataset:
         test_tags[tag] = True
     self.testing_set["tagset"] = test_tags.keys()
 
-    
-
+  def create_sentences_dict(self):
+    for i,(k,tup) in enumerate(self.sentences):
+      self.sentences_dict[k]["words"] = tup  
+      self.sentences_dict[k]["tags"] = Y[i]  
 
