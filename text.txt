@@ -1,4 +1,3 @@
-
 wo_wtb-ud-train_24
 Ci	ADP
 wàllu	NOUN
@@ -26,4 +25,135 @@ ay	DET
 ndomboy	NOUN
 tànk	NOUN
 .	PUNCT
+
+wo_wtb-ud-train_26
+Kajoor	PROPN
+moo	_
+mu	PRON
+a	AUX
+di	AUX
+kàdd	NOUN
+ag	DET
+garab	NOUN
+gu	PRON
+nekk	VERB
+Senegaal	PROPN
+ak	CCONJ
+joor	NOUN
+,	PUNCT
+suuf	NOUN
+si	DET
+.	PUNCT
+
+wo_wtb-ud-train_27
+Moo	_
+Mu	PRON
+a	AUX
+jur	VERB
+baat	NOUN
+boobu	DET
+Kajoor	PROPN
+ci	ADP
+Wolof	PROPN
+.	PUNCT
+
+wo_wtb-ud-train_28
+Ñi	PRON
+jëkk	VERB
+a	PART
+yor	VERB
+suufi	NOUN
+Kajoor	PROPN
+,	PUNCT
+ay	DET
+séeréer	NOUN
+lañu	AUX
+woon	AUX
+.	PUNCT
+
+wo_wtb-ud-train_29
+Ñu	PRON
+doonoon	VERB
+ay	DET
+lamaan	NOUN
+te	CCONJ
+sant	VERB
+JAAÑ	PROPN
+.	PUNCT
+
+wo_wtb-ud-train_30
+Ba	SCONJ
+pare	VERB
+,	PUNCT
+xeetu	NOUN
+Wagadu	PROPN
+ak	CCONJ
+Jafunu	PROPN
+,	PUNCT
+soqi	VERB
+ci	ADP
+Sooninké	PROPN
+yi	DET
+,	PUNCT
+jóge	VERB
+ca	ADP
+penku	NOUN
+.	PUNCT
+
+wo_wtb-ud-train_31
+Ñoo	_
+Ñu	PRON
+a	AUX
+sos	VERB
+meen	NOUN
+yi	PRON
+jëkk	VERB
+a	PART
+ilif	VERB
+nguur	NOUN
+gi	DET
+,	PUNCT
+ak	CCONJ
+ñu	PRON
+sant	VERB
+FAAL	PROPN
+.	PUNCT
+
+wo_wtb-ud-train_32
+Gàddaay	NOUN
+moo	_
+mu	PRON
+a	AUX
+leen	PRON
+tax	VERB
+ñëw	VERB
+Kajoor	PROPN
+.	PUNCT
+
+wo_wtb-ud-train_33
+Kon	ADV
+ñooñu	PRON
+mujj	VERB
+nekk	VERB
+Dammeel	PROPN
+Kajoor	PROPN
+,	PUNCT
+ay	DET
+doxandéem	NOUN
+lañu	AUX
+yu	PRON
+nekkoon	VERB
+ca	ADP
+réew	NOUN
+moomu	DET
+ca	ADP
+njëlbéen	NOUN
+.	PUNCT
+
+
+
+
+
+
+
 
