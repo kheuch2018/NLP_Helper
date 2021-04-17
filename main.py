@@ -149,7 +149,10 @@ class Dataset:
     self.testing_set["tagset"] = test_tags.keys()
 
   def create_sentences_dict(self):
-    for i,(k,tup) in enumerate(self.sentences):
-      self.sentences_dict[k]["words"] = tup  
-      self.sentences_dict[k]["tags"] = self.Y[i]  
+    for i,(k,tup) in enumerate(self.sentences.items()):
+      self.sentences_dict[k]={
+        "words": tup,
+        "tags": self.Y[i]
+      }
+
 
