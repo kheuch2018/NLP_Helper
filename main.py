@@ -148,4 +148,3 @@ class Dataset:
     
 
 
-dataset = Dataset("./text.txt","tags.txt")
