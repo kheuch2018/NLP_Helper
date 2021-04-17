@@ -8,7 +8,7 @@ class Dataset:
   X = ()
   Y = ()
   N = 0
-  sentences_dict: {}
+  sentences_dict= {}
 
   training_set = {
     "sentences": {},
